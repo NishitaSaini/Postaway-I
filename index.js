@@ -1,12 +1,12 @@
 import express from "express"; 
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import userRoutes from "./routes/userRoutes.js";
-import postRoutes from "./routes/postRoutes.js";
-import commentRoutes from "./routes/commentRoutes.js";
-import likeRoutes from "./routes/likeRoutes.js";
+import userRoutes from "./src/routes/userRoutes.js";
+import postRoutes from "./src/routes/postRoutes.js";
+import commentRoutes from "./src/routes/commentRoutes.js";
+import likeRoutes from "./src/routes/likeRoutes.js";
 // import CustomError from './utils/customError.js';
-import errorHandler from './middlewares/errorHandler.js';
+import errorHandler from './src/middlewares/errorHandler.js';
 
 dotenv.config(); // Load environment variables from .env file
 
